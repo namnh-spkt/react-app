@@ -1,0 +1,30 @@
+namnguyen@Nams-MacBook-Pro gitflow-workflow-test % git flow release finish --help                           
+usage: git flow release finish [-h] [-F] [-s] [-u] [-m | -f] [-p] [-k] [-n] [-b] [-S] <version>
+
+
+    Finish a release branch
+
+    -h, --help            Show this help
+    --showcommands        Show git commands while executing them
+    -F, --[no]fetch       Fetch from origin before performing finish
+    -s, --sign            Sign the release tag cryptographically
+    -u, --signingkey      Use the given GPG-key for the digital signature (implies -s)
+    -m, --message         Use the given tag message
+    -f, --[no]messagefile ...
+                          Use the contents of the given file as a tag message
+    -p, --[no]push        Push to origin after performing finish
+    --[no]pushproduction  Push the production branch
+    --[no]pushdevelop     Push the develop branch
+    --[no]pushtag         Push the tag
+    -k, --[no]keep        Keep branch after performing finish
+    --[no]keepremote      Keep the remote branch
+    --[no]keeplocal       Keep the local branch
+    -D, --[no]force_delete
+                          Force delete release branch after finish
+    -n, --[no]tag         Don't tag this release
+    -b, --[no]nobackmerge
+                          Don't back-merge master, or tag if applicable, in develop
+    -S, --[no]squash      Squash release during merge
+    --[no]ff-master       Fast forward master branch if possible
+    -T, --tagname         Use given tag name
+    --nodevelopmerge      Don't back-merge develop branch
